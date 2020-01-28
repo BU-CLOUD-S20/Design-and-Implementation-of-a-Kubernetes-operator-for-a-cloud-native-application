@@ -1,6 +1,6 @@
 # Design and Implementation of a Kubernetes operator for a cloud-native application
 
-Team: Lin Ma, Brendan Slabe, Ganghao "Eric" Li, Chenhui "Elvis" Zhu, Yuan Wei 
+Team: Lin Ma, Brendan Slabe, Ganghao "Eric" Li, Chenhui "Elvis" Zhu, Yuan Wei   
 Mentors:
 * Mandana Vaziri ​mvaziri@us.ibm.com​
 * Tamar Eilam eilamt@us.ibm.com
