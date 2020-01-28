@@ -1,8 +1,9 @@
 # Design and Implementation of a Kubernetes operator for a cloud-native application
 
-## Project Logistics: 
+## Project mentors: 
 
-Mentors: Mandana Vaziri ​mvaziri@us.ibm.com​Tamar Eilam eilamt@us.ibm.com
+* Mandana Vaziri ​mvaziri@us.ibm.com​
+* Tamar Eilam eilamt@us.ibm.com
 
 ## Fundamental technologies 
 
