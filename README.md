@@ -41,13 +41,13 @@ Global Architecture of the Project and a Walkthrough:
 
     * OS: A platform for operators to run on.
 
-![](https://drive.google.com/file/d/12voxDTv-DaHsrp7Us6fbMrMFx7qzmsqm/view?usp=sharing)
+![](img/fig1.png)
 
 
-![](https://drive.google.com/file/d/1RKkL7sFMwEJoJM0Lr2_WzTzdzOLk5e75/view?usp=sharing)
+![](img/fig2.png)
 
 
-![](https://drive.google.com/file/d/1nkK0dpESTWKWrT5PCepL2PJIeMEhjH-p/view?usp=sharing)
+![](img/fig3.png)
 
 
 ## 5. Acceptance Criteria:
@@ -62,7 +62,7 @@ This section discusses the minimum acceptance criteria at the end of the project
 ## 6. Release Planning:
 Preliminary Releasing Plan: 
 
-![](https://drive.google.com/file/d/1_3XJzpjF619BjJFXLUkvhGvcejj_6kuS/view?usp=sharing)
+![](img/releasedate.png)
 
 
 
