@@ -46,13 +46,13 @@ Global Architecture of the Project and a Walkthrough:
 $ kubectl create -f myappcrd.yaml
 ```
 
-![](img/fig1.png =250x250)
+![](img/fig1.png|width=100)
 
 
-![](img/fig2.png =250x250)
+![](img/fig2.png|width=100)
 
 
-![](img/fig3.png =250x250)
+![](img/fig3.png|width=100)
 
 
 ## 5. Acceptance Criteria:
@@ -67,7 +67,7 @@ This section discusses the minimum acceptance criteria at the end of the project
 ## 6. Release Planning:
 Preliminary Releasing Plan: 
 
-![](img/releasedate.png =250x250)
+![](img/releasedate.png)
 
 
 
