@@ -35,7 +35,7 @@ Feature B:
 ## 4. Solution Concept: 
 Global Architecture of the Project and a Walkthrough:
 
-     * Microservices: Generally, microservices is an simple application that is deployable on Kubernetes. 
+    * Microservices: Generally, microservices is an simple application that is deployable on Kubernetes. 
 
     * Operator: Operator used to set up the dependencies and customer resources of the microservices on the Kubernetes container.
 
