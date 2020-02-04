@@ -46,13 +46,13 @@ Global Architecture of the Project and a Walkthrough:
 $ kubectl create -f myappcrd.yaml
 ```
 
-![](img/fig1.png|width=100)
+![](img/fig1.png | width=100)
 
 
-![](img/fig2.png|width=100)
+![](img/fig2.png | width=100)
 
 
-![](img/fig3.png|width=100)
+![](img/fig3.png | width=100)
 
 
 ## 5. Acceptance Criteria:
