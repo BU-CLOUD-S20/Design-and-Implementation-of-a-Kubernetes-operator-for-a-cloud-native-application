@@ -1,7 +1,7 @@
 package apis
 
 import (
-	v1 "github.com/cnych/opdemo/pkg/apis/app/v1"
+	v1 "demo1/opdemo/pkg/apis/app/v1"
 )
 
 func init() {

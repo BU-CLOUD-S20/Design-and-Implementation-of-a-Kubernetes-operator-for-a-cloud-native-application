@@ -3,7 +3,7 @@ k8s.io/cri-api v0.0.0-20190828162817-608eb1dad4ac h1:ikDtGPX1DVIhl4E36+khq6RVyA6
 k8s.io/cri-api v0.0.0-20190828162817-608eb1dad4ac/go.mod h1:BvtUaNBr0fEpzb11OfrQiJLsLPtqbmulpo1fPwcpP6Q=
 
 go.sum database tree
-828153
-WDuoapicVqkGA90sNQaLZBMqxc6Eanp9tFF61d7MFt0=
+865696
+LZqnqt2owaNbLqW7CTbuQ7Lp92Y+quMNlHXDhBLWly4=
 
-— sum.golang.org Az3grpEoUy+9F89dDoTv7cCCwyY6JfIdFDRh+R01YtNt+twdXIxN8juU4R88VfiouzJasURR4cD9bIJYzQi6xA/hbAo=
+— sum.golang.org Az3grrmeWCLXjBfcTTa5sQaIP65a/07egHSzF1osWVCT5S/IbY36A78v78UqKqMeVj3ItJkEzE3VYhXts9K9XVZCHQ8=

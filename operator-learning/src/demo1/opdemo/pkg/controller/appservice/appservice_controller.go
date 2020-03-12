@@ -5,18 +5,20 @@ import (
 	"encoding/json"
 	"reflect"
 
-	appv1 "github.com/cnych/opdemo/pkg/apis/app/v1"
-	"github.com/cnych/opdemo/pkg/resources"
+	appv1 "demo1/opdemo/pkg/apis/app/v1"
+	"demo1/opdemo/pkg/resources"
+
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	"k8s.io/apimachinery/pkg/api/errors"
+	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	"sigs.k8s.io/controller-runtime/pkg/client"
 	"sigs.k8s.io/controller-runtime/pkg/controller"
 	"sigs.k8s.io/controller-runtime/pkg/handler"
+	logf "sigs.k8s.io/controller-runtime/pkg/log"
 	"sigs.k8s.io/controller-runtime/pkg/manager"
 	"sigs.k8s.io/controller-runtime/pkg/reconcile"
-	logf "sigs.k8s.io/controller-runtime/pkg/runtime/log"
 	"sigs.k8s.io/controller-runtime/pkg/source"
 )
 
@@ -54,7 +56,7 @@ func add(mgr manager.Manager, r reconcile.Reconciler) error {
 
 	// TODO(user): Modify this to be the types you create that are owned by the primary resource
 	// Watch for changes to secondary resource Pods and requeue the owner AppService
-	err = c.Watch(&source.Kind{Type: &appsv1.Deployment{}}, &handler.EnqueueRequestForOwner{
+	err = c.Watch(&source.Kind{Type: &corev1.Pod{}}, &handler.EnqueueRequestForOwner{
 		IsController: true,
 		OwnerType:    &appv1.AppService{},
 	})
@@ -65,6 +67,7 @@ func add(mgr manager.Manager, r reconcile.Reconciler) error {
 	return nil
 }
 
+// blank assignment to verify that ReconcileAppService implements reconcile.Reconciler
 var _ reconcile.Reconciler = &ReconcileAppService{}
 
 // ReconcileAppService reconciles a AppService object
@@ -137,7 +140,7 @@ func (r *ReconcileAppService) Reconcile(request reconcile.Request) (reconcile.Re
 	}
 
 	oldspec := appv1.AppServiceSpec{}
-	if err := json.Unmarshal([]byte(instance.Annotations["spec"]), oldspec); err != nil {
+	if err := json.Unmarshal([]byte(instance.Annotations["spec"]), &oldspec); err != nil {
 		return reconcile.Result{}, err
 	}
 
@@ -168,4 +171,27 @@ func (r *ReconcileAppService) Reconcile(request reconcile.Request) (reconcile.Re
 
 	return reconcile.Result{}, nil
 
+}
+
+// newPodForCR returns a busybox pod with the same name/namespace as the cr
+func newPodForCR(cr *appv1.AppService) *corev1.Pod {
+	labels := map[string]string{
+		"app": cr.Name,
+	}
+	return &corev1.Pod{
+		ObjectMeta: metav1.ObjectMeta{
+			Name:      cr.Name + "-pod",
+			Namespace: cr.Namespace,
+			Labels:    labels,
+		},
+		Spec: corev1.PodSpec{
+			Containers: []corev1.Container{
+				{
+					Name:    "busybox",
+					Image:   "busybox",
+					Command: []string{"sleep", "3600"},
+				},
+			},
+		},
+	}
 }

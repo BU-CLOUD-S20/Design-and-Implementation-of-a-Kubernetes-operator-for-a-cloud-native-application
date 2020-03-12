@@ -12,9 +12,9 @@ import (
 	_ "k8s.io/client-go/plugin/pkg/client/auth"
 	"k8s.io/client-go/rest"
 
-	"github.com/cnych/opdemo/pkg/apis"
-	"github.com/cnych/opdemo/pkg/controller"
-	"github.com/cnych/opdemo/version"
+	"demo1/opdemo/pkg/apis"
+	"demo1/opdemo/pkg/controller"
+	"demo1/opdemo/version"
 
 	"github.com/operator-framework/operator-sdk/pkg/k8sutil"
 	kubemetrics "github.com/operator-framework/operator-sdk/pkg/kube-metrics"

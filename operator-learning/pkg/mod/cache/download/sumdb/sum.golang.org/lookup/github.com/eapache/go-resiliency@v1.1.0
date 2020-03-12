@@ -3,7 +3,7 @@ github.com/eapache/go-resiliency v1.1.0 h1:1NtRmCAqadE2FN4ZcN6g90TP3uk8cg9rn9eNK
 github.com/eapache/go-resiliency v1.1.0/go.mod h1:kFI+JgMyC7bLPUVY133qvEBtVayf5mFgVsvEsIPBvNs=
 
 go.sum database tree
-828044
-zc0YvjqAbDD55f4E85bMsGfvb5BZVxuO41nIf0EOmJY=
+865273
+dqvx8XykjWZHZz5xdeVgTEE1NlQgLRE9NyNAoBfzJmI=
 
-— sum.golang.org Az3grt0kTQZxJoZgsv6/GBPXGB18i9uWgBLGeaNiJZP59HSLiFxIFocvjeAVA7KiaGMIwD99o3jDfrHbY4za6Uxczgo=
+— sum.golang.org Az3grut1YhtDctFgThcrT8pdGqUTw0eZfUu+VMtP8gPn4uyPodw853MWGJXOy/JzqwHBb5VjI7saWI8yQP1K5yLmQwM=

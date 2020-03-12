@@ -3,7 +3,7 @@ github.com/operator-framework/operator-registry v1.5.7-0.20200121213444-d8e2ec52
 github.com/operator-framework/operator-registry v1.5.7-0.20200121213444-d8e2ec52c19a/go.mod h1:ekexcV4O8YMxdQuPb+Xco7MHfVmRIq7Jvj5e6NU7dHI=
 
 go.sum database tree
-828153
-WDuoapicVqkGA90sNQaLZBMqxc6Eanp9tFF61d7MFt0=
+865727
+XbJQgCxPRbL02VHElUhOvnCTAT3MZFtgS0frEmQwZeQ=
 
-— sum.golang.org Az3grpEoUy+9F89dDoTv7cCCwyY6JfIdFDRh+R01YtNt+twdXIxN8juU4R88VfiouzJasURR4cD9bIJYzQi6xA/hbAo=
+— sum.golang.org Az3grohaWtaFnCpbKq03bp7IDgsnqUTlDCo97TAo4BaoncELJsq0heYXnD+ES0J1EtSTvlVcmlLqVynT+NIT68hOiws=

@@ -3,7 +3,7 @@ k8s.io/autoscaler v0.0.0-20190607113959-1b4f1855cb8e h1:VZ7xYyNfl07Yh3DK10Dck9r0
 k8s.io/autoscaler v0.0.0-20190607113959-1b4f1855cb8e/go.mod h1:QEXezc9uKPT91dwqhSJq3GNI3B1HxFRQHiku9kmrsSA=
 
 go.sum database tree
-828153
-WDuoapicVqkGA90sNQaLZBMqxc6Eanp9tFF61d7MFt0=
+865727
+XbJQgCxPRbL02VHElUhOvnCTAT3MZFtgS0frEmQwZeQ=
 
-— sum.golang.org Az3grpEoUy+9F89dDoTv7cCCwyY6JfIdFDRh+R01YtNt+twdXIxN8juU4R88VfiouzJasURR4cD9bIJYzQi6xA/hbAo=
+— sum.golang.org Az3grohaWtaFnCpbKq03bp7IDgsnqUTlDCo97TAo4BaoncELJsq0heYXnD+ES0J1EtSTvlVcmlLqVynT+NIT68hOiws=

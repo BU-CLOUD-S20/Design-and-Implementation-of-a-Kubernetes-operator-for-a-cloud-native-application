@@ -1,15 +1,15 @@
 package resources
 
 import (
+	v1 "demo1/opdemo/pkg/apis/app/v1"
+
 	appsv1 "k8s.io/api/apps/v1"
 	corev1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime/schema"
-	appv1 "github.com/cnych/opdemo/pkg/apis/app/v1"
-	"github.com/cnych/opdemo/pkg/apis/app/v1"
 )
 
-func NewDeploy(app *appv1.AppService) *appsv1.Deployment {
+func NewDeploy(app *v1.AppService) *appsv1.Deployment {
 	labels := map[string]string{"app": app.Name}
 	selector := &metav1.LabelSelector{MatchLabels: labels}
 	return &appsv1.Deployment{
@@ -23,9 +23,9 @@ func NewDeploy(app *appv1.AppService) *appsv1.Deployment {
 
 			OwnerReferences: []metav1.OwnerReference{
 				*metav1.NewControllerRef(app, schema.GroupVersionKind{
-					Group: v1.SchemeGroupVersion.Group,
+					Group:   v1.SchemeGroupVersion.Group,
 					Version: v1.SchemeGroupVersion.Version,
-					Kind: "AppService",
+					Kind:    "AppService",
 				}),
 			},
 		},
@@ -54,12 +54,12 @@ func newContainers(app *v1.AppService) []corev1.Container {
 	}
 	return []corev1.Container{
 		{
-			Name: app.Name,
-			Image: app.Spec.Image,
-			Resources: app.Spec.Resources,
-			Ports: containerPorts,
+			Name:            app.Name,
+			Image:           app.Spec.Image,
+			Resources:       app.Spec.Resources,
+			Ports:           containerPorts,
 			ImagePullPolicy: corev1.PullIfNotPresent,
-			Env: app.Spec.Envs,
+			Env:             app.Spec.Envs,
 		},
 	}
 }

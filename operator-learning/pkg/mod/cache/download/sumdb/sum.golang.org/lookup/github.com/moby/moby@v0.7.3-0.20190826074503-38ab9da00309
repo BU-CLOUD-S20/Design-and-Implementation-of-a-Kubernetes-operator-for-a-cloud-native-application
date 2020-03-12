@@ -3,7 +3,7 @@ github.com/moby/moby v0.7.3-0.20190826074503-38ab9da00309 h1:cvy4lBOYN3gKfKj8Lzz
 github.com/moby/moby v0.7.3-0.20190826074503-38ab9da00309/go.mod h1:fDXVQ6+S340veQPv35CzDahGBmHsiclFwfEygB/TWMc=
 
 go.sum database tree
-828153
-WDuoapicVqkGA90sNQaLZBMqxc6Eanp9tFF61d7MFt0=
+865695
+RIcr6fnvH/II7zdXrRK/cT5BGt/wzF2hO4cYO/siavk=
 
-— sum.golang.org Az3grpEoUy+9F89dDoTv7cCCwyY6JfIdFDRh+R01YtNt+twdXIxN8juU4R88VfiouzJasURR4cD9bIJYzQi6xA/hbAo=
+— sum.golang.org Az3grteu0LC0XsUXu+iwrET6C+wVRX49d6aiF8b1gjBBcpGeCcMDIieh14XM1wR0FNYtTtkE4oZT/ezYaoBQH8IyYwU=

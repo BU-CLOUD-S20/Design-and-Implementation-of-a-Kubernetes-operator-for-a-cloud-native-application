@@ -1,4 +1,4 @@
-module github.com/cnych/opdemo
+module demo1/opdemo
 
 go 1.13
 

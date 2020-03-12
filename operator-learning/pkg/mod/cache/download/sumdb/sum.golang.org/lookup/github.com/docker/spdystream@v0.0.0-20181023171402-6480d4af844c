@@ -3,7 +3,7 @@ github.com/docker/spdystream v0.0.0-20181023171402-6480d4af844c h1:ZfSZ3P3BedhKG
 github.com/docker/spdystream v0.0.0-20181023171402-6480d4af844c/go.mod h1:Qh8CwZgvJUkLughtfhJv5dyTYa91l1fOUCrgjqmcifM=
 
 go.sum database tree
-828153
-WDuoapicVqkGA90sNQaLZBMqxc6Eanp9tFF61d7MFt0=
+865305
+yhbOxDmcp54MPaC8rRrgaK51ySGBMfkjd61qrvg/3X8=
 
-— sum.golang.org Az3grpEoUy+9F89dDoTv7cCCwyY6JfIdFDRh+R01YtNt+twdXIxN8juU4R88VfiouzJasURR4cD9bIJYzQi6xA/hbAo=
+— sum.golang.org Az3grioLn10HZZG4hjZC7tkWTMThfdaEwnQokBE4mOBpBAPkUsYCWWjltiS9zuE/avE9RBk7Knmi0q/ltpTh6Wporww=

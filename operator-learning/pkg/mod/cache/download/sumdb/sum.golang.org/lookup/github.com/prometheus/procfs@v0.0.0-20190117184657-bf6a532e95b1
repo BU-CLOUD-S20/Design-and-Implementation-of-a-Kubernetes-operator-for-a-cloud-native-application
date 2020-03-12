@@ -3,7 +3,7 @@ github.com/prometheus/procfs v0.0.0-20190117184657-bf6a532e95b1 h1:/K3IL0Z1quvmJ
 github.com/prometheus/procfs v0.0.0-20190117184657-bf6a532e95b1/go.mod h1:c3At6R/oaqEKCNdg8wHV1ftS6bRYblBhIjjI8uT2IGk=
 
 go.sum database tree
-828124
-7jxv/DsrsyXpUcZfkI5iZv5FyAi1YDbLUSCeRfGdXwc=
+865464
+EltbT2HxQMtDS1tdvYkH2QOqrmzr+XFbBA3MaoYuuH0=
 
-— sum.golang.org Az3grrtffguSNBTXp/vypsGdkbyoGe4gcsh6vks0lX+FVstad6gqLvMRPLmkVLdieMg7C/26dYgwkNIMYYK/ByxoagI=
+— sum.golang.org Az3grm7Xhw3DVtqTjvC267H8Sya+8ws/35d6crppeHx3blY82CnieMF6WArrMn4a3nO/KFHOfRE7hSyJBz5mDKCB1AY=

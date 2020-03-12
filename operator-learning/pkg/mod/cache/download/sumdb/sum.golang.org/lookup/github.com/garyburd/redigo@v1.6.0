@@ -3,7 +3,7 @@ github.com/garyburd/redigo v1.6.0 h1:0VruCpn7yAIIu7pWVClQC8wxCJEcG3nyzpMSHKi1PQc
 github.com/garyburd/redigo v1.6.0/go.mod h1:NR3MbYisc3/PwhQ00EMzDiPmrwpPxAn5GI05/YaO1SY=
 
 go.sum database tree
-828153
-WDuoapicVqkGA90sNQaLZBMqxc6Eanp9tFF61d7MFt0=
+865661
+LCs1Qz+QPeBdNkkNxvJYoJFfer+D57YEdvdjOvY8uc8=
 
-— sum.golang.org Az3grpEoUy+9F89dDoTv7cCCwyY6JfIdFDRh+R01YtNt+twdXIxN8juU4R88VfiouzJasURR4cD9bIJYzQi6xA/hbAo=
+— sum.golang.org Az3grk66hw5n7SlpCx3Q0KwSNgn4t/CUqQ1TYnZQifZD/5YAWjfAXv1/9V5NVhNDuQzXgx226kbtjMADkfhoHfZ72Ak=

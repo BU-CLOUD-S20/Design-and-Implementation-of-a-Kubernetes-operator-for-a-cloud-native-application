@@ -3,7 +3,7 @@ github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5 h1:LnC5Kc
 github.com/tmc/grpc-websocket-proxy v0.0.0-20190109142713-0ad062ec5ee5/go.mod h1:ncp9v5uamzpCO7NfCPTXjqaC+bZgJeR0sMTm6dMHP7U=
 
 go.sum database tree
-828143
-9IxWO3zQfO5tuc1KSYZyGcINHVS/dc5mSmvwe3FjKa8=
+865722
+lUhMj4uV22N+6HRFzwHDkkSJAWUfQkkYGUs9EGFe8xU=
 
-— sum.golang.org Az3grghwTCyXLjb5qSL2P+orW5CEoQVow2enHrG5Xf91KGW2i9Khu9KLKFK4B9Fli9Gi1MX4waEwdNxmHxPnHo6INg4=
+— sum.golang.org Az3grhavJgQ+xxUcQPV0TKKx04nK9QCZLTaY69nvLUwQ6vUoR/T+2MggIVm6fn4zlwOg3hr4xyRonmh7sUdWITsRbgM=
