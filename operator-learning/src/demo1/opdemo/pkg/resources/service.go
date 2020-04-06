@@ -29,7 +29,7 @@ func NewService(app *v1.AppService) *corev1.Service {
 			Type:  corev1.ServiceTypeLoadBalancer,
 			Ports: app.Spec.Ports,
 			Selector: map[string]string{
-				"app": app.Name,
+				"run": app.Name,
 			},
 		},
 	}
