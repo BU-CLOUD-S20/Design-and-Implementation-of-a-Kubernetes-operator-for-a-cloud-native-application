@@ -10,7 +10,7 @@ import (
 )
 
 func NewDeploy(app *v1.AppService) *appsv1.Deployment {
-	labels := map[string]string{"app": app.Name}
+	labels := map[string]string{"run": app.Name}
 	selector := &metav1.LabelSelector{MatchLabels: labels}
 	return &appsv1.Deployment{
 		TypeMeta: metav1.TypeMeta{
@@ -20,7 +20,6 @@ func NewDeploy(app *v1.AppService) *appsv1.Deployment {
 		ObjectMeta: metav1.ObjectMeta{
 			Name:      app.Name,
 			Namespace: app.Namespace,
-
 			OwnerReferences: []metav1.OwnerReference{
 				*metav1.NewControllerRef(app, schema.GroupVersionKind{
 					Group:   v1.SchemeGroupVersion.Group,
