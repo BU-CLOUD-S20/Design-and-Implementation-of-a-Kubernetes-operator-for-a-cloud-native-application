@@ -7,8 +7,10 @@ spec:
   image: docker.io/s994686229/microservice-kubernetes-demo-apache:latest
   ports:
     - port: 80
+      protocol: TCP
       targetPort: 80
-      nodePort: 30002
+  selector:
+     run: apache
 ---
 apiVersion: app.example.com/v1
 kind: AppService
@@ -19,8 +21,11 @@ spec:
   image: s994686229/microservice-kubernetes-demo-catalog:latest
   ports:
     - port: 8080
+      protocol: TCP
       targetPort: 8080
-      nodePort: 30003
+  selector:
+     run: catalog
+    
 ---
 apiVersion: app.example.com/v1
 kind: AppService
@@ -31,8 +36,11 @@ spec:
   image: s994686229/microservice-kubernetes-demo-customer:latest
   ports:
     - port: 8080
+      protocol: TCP  
       targetPort: 8080
-      nodePort: 30004
+  selector:
+     run: customer
+      
 ---
 apiVersion: app.example.com/v1
 kind: AppService
@@ -43,5 +51,7 @@ spec:
   image: s994686229/microservice-kubernetes-demo-order:latest
   ports:
     - port: 8080
+      protocol: TCP  
       targetPort: 8080
-      nodePort: 30005
+  selector:
+    run: order
