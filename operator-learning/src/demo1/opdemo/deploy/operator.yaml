@@ -16,7 +16,7 @@ spec:
       containers:
         - name: opdemo
           # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: s994686229/operator2
           command:
           - opdemo
           imagePullPolicy: Always

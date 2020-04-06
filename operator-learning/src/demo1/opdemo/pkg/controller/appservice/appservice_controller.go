@@ -107,25 +107,25 @@ func (r *ReconcileAppService) Reconcile(request reconcile.Request) (reconcile.Re
 		return reconcile.Result{}, err
 	}
 
-	// if not exist create resouces
-	// if exist, decide wether update is needed
-	//   if update need, then update
-	//   if not return.
+	// 如果不存在，则创建关联资源
+	// 如果存在，判断是否需要更新
+	//   如果需要更新，则直接更新
+	//   如果不需要更新，则正常返回
 
 	deploy := &appsv1.Deployment{}
 	if err := r.client.Get(context.TODO(), request.NamespacedName, deploy); err != nil && errors.IsNotFound(err) {
-		// create and link resouces
-		// 1. create Deploy
+		// 创建关联资源
+		// 1. 创建 Deploy
 		deploy := resources.NewDeploy(instance)
 		if err := r.client.Create(context.TODO(), deploy); err != nil {
 			return reconcile.Result{}, err
 		}
-		// 2. create Service
+		// 2. 创建 Service
 		service := resources.NewService(instance)
 		if err := r.client.Create(context.TODO(), service); err != nil {
 			return reconcile.Result{}, err
 		}
-		// 3. link Annotations
+		// 3. 关联 Annotations
 		data, _ := json.Marshal(instance.Spec)
 		if instance.Annotations != nil {
 			instance.Annotations["spec"] = string(data)
@@ -145,7 +145,7 @@ func (r *ReconcileAppService) Reconcile(request reconcile.Request) (reconcile.Re
 	}
 
 	if !reflect.DeepEqual(instance.Spec, oldspec) {
-		// update related resources
+		// 更新关联资源
 		newDeploy := resources.NewDeploy(instance)
 		oldDeploy := &appsv1.Deployment{}
 		if err := r.client.Get(context.TODO(), request.NamespacedName, oldDeploy); err != nil {

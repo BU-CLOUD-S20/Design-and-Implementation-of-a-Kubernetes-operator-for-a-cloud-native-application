@@ -4,7 +4,7 @@ metadata:
   name: apache
 spec:
   size: 1
-  image: docker.io/s994686229/microservice-kubernetes-demo-apache:latest
+  image: docker.io/ewolff/microservice-kubernetes-demo-apache:latest
   ports:
     - port: 80
       protocol: TCP
@@ -18,7 +18,7 @@ metadata:
   name: catalog
 spec:
   size: 1
-  image: s994686229/microservice-kubernetes-demo-catalog:latest
+  image: docker.io/ewolff/microservice-kubernetes-demo-catalog:latest
   ports:
     - port: 8080
       protocol: TCP
@@ -33,7 +33,7 @@ metadata:
   name: customer
 spec:
   size: 1
-  image: s994686229/microservice-kubernetes-demo-customer:latest
+  image: docker.io/ewolff/microservice-kubernetes-demo-customer:latest
   ports:
     - port: 8080
       protocol: TCP  
@@ -48,7 +48,7 @@ metadata:
   name: order
 spec:
   size: 1
-  image: s994686229/microservice-kubernetes-demo-order:latest
+  image: docker.io/ewolff/microservice-kubernetes-demo-order:latest
   ports:
     - port: 8080
       protocol: TCP  
