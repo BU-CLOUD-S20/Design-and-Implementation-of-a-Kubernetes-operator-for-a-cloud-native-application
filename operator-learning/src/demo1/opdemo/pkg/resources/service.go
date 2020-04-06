@@ -26,7 +26,7 @@ func NewService(app *v1.AppService) *corev1.Service {
 			},
 		},
 		Spec: corev1.ServiceSpec{
-			Type:  corev1.ServiceTypeNodePort,
+			Type:  corev1.ServiceTypeLoadBalancer,
 			Ports: app.Spec.Ports,
 			Selector: map[string]string{
 				"app": app.Name,
