@@ -27,11 +27,55 @@ Features:
 * Design and implement the CDR controller
 * Testing and the controller and refine it 
 
-## 4. Installing:
+## 4. Installation: 
+Please install all the pakages and  by following links.
+* [git](https://git-scm.com/downloads)
+* [kubectl version v1.11.3+](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+* [minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/)
+* [operator-SDK](https://sdk.operatorframework.io/docs/install-operator-sdk/)
+* [go version v1.12+](https://golang.org/dl/)
+* [mercurial version 3.9+](https://www.mercurial-scm.org/downloads)
+* [docker version 17.03+](https://docs.docker.com/get-docker/)
 
+## 5. Deployment:
+1. Clone the repo by using the command below.   
+    ```
+    $ git clone https://github.com/BU-CLOUD-S20/Design-and-Implementation-of-a-Kubernetes-operator-for-a-cloud-native-application.git   
+    ```
+2. Initialize the minikube in the terminal.   
+    ```
+    $ minikube start --memory=4000   
+    ```
+3. Go the repo you cloned and set go path for the project by using the command below.   
+    ```
+    $ cd operator-learning && export GOPATH=$PWD   
+    ```
+4. Go to the opdemo profile.   
+    ```
+    $ cd src/demo1/opdemo   
+    ```
+5. Create the RBAC object for opeartor   
+    ```
+    $ kubectl create -f deploy/service_account.yaml   
+    $ kubectl create -f deploy/role.yaml   
+    $ kubectl create -f deploy/role_binding.yaml   
+    ```
+6. Create the CRD and operator.   
+    ```
+    $ kubectl apply -f deploy/crds/app.example.com_appservices_crd.yaml    
+    $ kubectl create -f deploy/operator.yaml   
+    ```
+7. Create the CR for the microservices.      
+    ```
+    $ kubectl apply -f deploy/crds/app.example.com_v1_appservice_cr.yaml   
+    ```
+8. You can see the status of pods and open the microservices by following command.   
+    ```
+    $ kubectl get all
+    $ minikube service apache
+    ```
 
-
-## 5. Acceptance Criteria:
+## 6. Acceptance Criteria:
 This section discusses the minimum acceptance criteria at the end of the project and stretch goals.
 
 * Develop an operator for one sample application on Kubernetes 
