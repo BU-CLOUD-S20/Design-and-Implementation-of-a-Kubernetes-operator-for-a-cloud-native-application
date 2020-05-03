@@ -44,11 +44,6 @@ This section discusses the minimum acceptance criteria at the end of the project
 *  Implement the CDR for the operator and corresponding test cases 
 * Testing overall performance on the operator on Kubernetes with multiple different applications 
 
-## 6. Release Planning:
-Preliminary Releasing Plan: 
-
-![](img/releasedate.png)
-
 ## 7. Demo PPT
 [Demo](https://docs.google.com/presentation/d/1BU5wfGXK9S8Pf8SZImy87siaeywIGy-xiimfU3lXoaY/edit)  
 
