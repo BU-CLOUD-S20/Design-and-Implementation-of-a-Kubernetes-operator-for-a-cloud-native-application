@@ -80,7 +80,7 @@ Please install all the pakages and  by following links.
     ```
 10. Stop the minikube.    
     ```
-    minikube stop    
+    $ minikube stop    
     ```
 
 ## 6. Acceptance Criteria:
