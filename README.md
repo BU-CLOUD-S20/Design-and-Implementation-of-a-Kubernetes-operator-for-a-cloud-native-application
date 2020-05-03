@@ -31,9 +31,11 @@ Feature B:
 * Design and implement the CDR controller
 * Testing and the controller and refine it 
 
+## 4. Installing:
 
 
-## 7. Demo PPT
+
+## 5. Demo PPT
 [Demo](https://docs.google.com/presentation/d/1BU5wfGXK9S8Pf8SZImy87siaeywIGy-xiimfU3lXoaY/edit)  
 
 
