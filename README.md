@@ -32,42 +32,6 @@ Feature B:
 * Testing and the controller and refine it 
 
 
-## 4. Solution Concept: 
-Global Architecture of the Project and a Walkthrough:
-
-* Microservices: Generally, microservices is an simple application that is deployable on Kubernetes. 
-
-* Operator: Operator used to set up the dependencies and customer resources of the microservices on the Kubernetes container.
-
-* OS: A platform for operators to run on.
-
-* Sample set up script:
-```
-$ kubectl create -f myappcrd.yaml
-```
-
-![](img/fig1.png)
-
-
-![](img/fig2.png)
-
-
-![](img/fig3.png)
-
-
-## 5. Acceptance Criteria:
-This section discusses the minimum acceptance criteria at the end of the project and stretch goals.
-
-* Develop an operator for one sample application on Kubernetes 
-* Implement test case for the operator 
-* Design CDR wich schema 
-*  Implement the CDR for the operator and corresponding test cases 
-* Testing overall performance on the operator on Kubernetes with multiple different applications 
-
-## 6. Release Planning:
-Preliminary Releasing Plan: 
-
-![](img/releasedate.png)
 
 ## 7. Demo PPT
 [Demo](https://docs.google.com/presentation/d/1BU5wfGXK9S8Pf8SZImy87siaeywIGy-xiimfU3lXoaY/edit)  
