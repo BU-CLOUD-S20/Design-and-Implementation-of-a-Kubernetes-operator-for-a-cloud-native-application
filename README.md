@@ -65,14 +65,22 @@ Please install all the pakages and  by following links.
     $ kubectl apply -f deploy/crds/app.example.com_appservices_crd.yaml    
     $ kubectl create -f deploy/operator.yaml   
     ```
-7. Create the CR for the microservices.      
+7. Create the CR for the microservices.(deploy function)      
     ```
-    $ kubectl apply -f deploy/crds/app.example.com_v1_appservice_cr.yaml   
+    $ kubectl create -f deploy/crds/app.example.com_v1_appservice_cr.yaml   
     ```
 8. You can see the status of pods and open the microservices by following command.   
     ```
     $ kubectl get all
     $ minikube service apache
+    ```
+9. Delete the pods.(delete function)   
+    ```
+    $ kubectl delete -f deploy/crds/app.example.com_v1_appservice_cr.yaml   
+    ```
+10. Stop the minikube.    
+    ```
+    minikube stop    
     ```
 
 ## 6. Acceptance Criteria:
