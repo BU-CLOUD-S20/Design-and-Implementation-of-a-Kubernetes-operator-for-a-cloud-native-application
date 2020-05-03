@@ -22,11 +22,7 @@ The personas we are targeting is an infrastructure operator for entrepreneurs to
 ## 3. Scope and Features Of The Project:
 The scope of the project is to develop an operator (CRD + controller) for a sample application.
 
-Features A:
-* Automatically set up running dependencies for sample applications  
-* Feedback for custom resource usage 
-
-Feature B:
+Features:
 * Design CRD (which includes the schema)
 * Design and implement the CDR controller
 * Testing and the controller and refine it 
