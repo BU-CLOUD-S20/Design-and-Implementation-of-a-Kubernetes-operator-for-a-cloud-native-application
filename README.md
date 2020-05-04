@@ -32,7 +32,7 @@ Features:
 * Testing and the controller and refine it 
 
 ## 4. Solution Concept
-
+![image](https://github.com/BU-CLOUD-S20/Design-and-Implementation-of-a-Kubernetes-operator-for-a-cloud-native-application/blob/master/img/operator1.png)
 
 
 ## Release Planning
