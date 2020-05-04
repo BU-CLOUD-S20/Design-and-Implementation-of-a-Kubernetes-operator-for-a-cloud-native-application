@@ -142,6 +142,6 @@ This section discusses the minimum acceptance criteria at the end of the project
 
 [Final PPT](https://docs.google.com/presentation/d/14BEiWadCBx_q0WPgXZw_FoNf3Y3B75TwLAfUIig8MqM/edit#slide=id.g800f20a85e_3_2123)
 
-[Final video](https://drive.google.com/file/d/1Oj6Y0Vx-cb_UrXz80dJITo1CEvAQG6i_/view?usp=sharing)
+[Final video](https://www.youtube.com/watch?v=Qkzh_V4rgFU)
 
 
