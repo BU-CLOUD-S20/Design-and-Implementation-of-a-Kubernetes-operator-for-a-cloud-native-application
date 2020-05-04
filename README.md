@@ -23,8 +23,8 @@ The personas we are targeting is an infrastructure operator for entrepreneurs to
 The scope of the project is to develop an operator (CRD + controller) for a sample application.
 
 Features:
-* Design CRD (which includes the schema)
-* Design and implement the CDR controller
+* Design Custome Resouces Definition (which includes the schema)
+* Design and implement the Custome Resouces Definition controller
 * Testing and the controller and refine it 
 
 ## 4. Installation: 
