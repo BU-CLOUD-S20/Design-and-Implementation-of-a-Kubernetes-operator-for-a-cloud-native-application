@@ -115,7 +115,7 @@ func (r *ReconcileAppService) Reconcile(request reconcile.Request) (reconcile.Re
 	deploy := &appsv1.Deployment{}
 	if err := r.client.Get(context.TODO(), request.NamespacedName, deploy); err != nil && errors.IsNotFound(err) {
 		//create association
-		// 1. 创建 Deploy
+		// 1. create Deploy
 		deploy := resources.NewDeploy(instance)
 		if err := r.client.Create(context.TODO(), deploy); err != nil {
 			return reconcile.Result{}, err
