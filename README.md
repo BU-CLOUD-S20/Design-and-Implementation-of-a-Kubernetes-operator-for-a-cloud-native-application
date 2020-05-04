@@ -24,11 +24,34 @@ The scope of the project is to develop an operator (CRD + controller) for a samp
 
 Features:
 * Design Custome Resouces Definition (which includes the schema)
+
 * Design and implement the Custome Resouces Definition controller
+
 * Realize scalling, deletion functions in operator to control the microservices.
+
 * Testing and the controller and refine it 
 
-## 4. Installation: 
+## 4. Solution Concept
+
+
+
+## Release Planning
+Release #1(due week 3)
+* Project goals determined and understood
+* Dependence configurated and tools installed
+
+Release #2(due week 7)
+* Custome resources Definishen(Schema) specified
+* reconcile function partly works
+* 2 microservices deployed
+
+Release #1(due week 10)
+* fully deplyed the application.
+* delete function added.
+
+Release #1(due week 12)
+* Test file completed
+## 5. Installation: 
 Basically, to test our operator minikube, you need to install the following tools:
 Please install all the pakages and  by following links.
 * [git](https://git-scm.com/downloads)
@@ -39,7 +62,7 @@ Please install all the pakages and  by following links.
 * [mercurial version 3.9+](https://www.mercurial-scm.org/downloads)
 * [docker version 17.03+](https://docs.docker.com/get-docker/)
 
-## 5. Deployment:
+## 6. Deployment:
 1. Clone the repo by using the command below.   
     ```
     $ git clone https://github.com/BU-CLOUD-S20/Design-and-Implementation-of-a-Kubernetes-operator-for-a-cloud-native-application.git   
