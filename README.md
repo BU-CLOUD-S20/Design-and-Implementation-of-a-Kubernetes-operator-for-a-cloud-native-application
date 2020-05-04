@@ -33,7 +33,7 @@ Features:
 
 ## 4. Solution Concept
 ![image](https://github.com/BU-CLOUD-S20/Design-and-Implementation-of-a-Kubernetes-operator-for-a-cloud-native-application/blob/master/img/operator1.png)
-.<img src="https://github.com/BU-CLOUD-S20/Design-and-Implementation-of-a-Kubernetes-operator-for-a-cloud-native-application/blob/master/img/operator2.png" width="300" height="300" />
+.<img src="https://github.com/BU-CLOUD-S20/Design-and-Implementation-of-a-Kubernetes-operator-for-a-cloud-native-application/blob/master/img/operator2.png" width="350" height="350" />
 
 
 
