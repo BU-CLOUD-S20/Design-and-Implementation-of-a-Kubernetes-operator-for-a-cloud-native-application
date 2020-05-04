@@ -36,7 +36,7 @@ Features:
 ![image](https://github.com/BU-CLOUD-S20/Design-and-Implementation-of-a-Kubernetes-operator-for-a-cloud-native-application/blob/master/img/operator1.png)
 * the Operator works like other kubernete applications it runs in the cluster.  it watches custom resources or we say API objects from the API server stored in the master node and make looply adjustment to app state to get the desired state.
 .<img src="https://github.com/BU-CLOUD-S20/Design-and-Implementation-of-a-Kubernetes-operator-for-a-cloud-native-application/blob/master/img/operator2.png" width="450" height="450" />
-* shown as the right side of the picture, the changes of API objects has been detected by operator, a message saying the configration has change would be sent to controller inside the operator. the controller decide how it get to the reconfigured state. then the controller restart the pods and matcheing the pods into the desire state.
+* shown as the below, the changes of API objects has been detected by operator, a message saying the configration has change would be sent to controller inside the operator. the controller decide how it get to the reconfigured state. then the controller restart the pods and matcheing the pods into the desire state.
 .<img src="https://github.com/BU-CLOUD-S20/Design-and-Implementation-of-a-Kubernetes-operator-for-a-cloud-native-application/blob/master/img/operator3.png" width="500" height="500" />
 
 
