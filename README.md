@@ -1,6 +1,6 @@
 # Design and Implementation of a Kubernetes operator for a cloud-native application
 
-Team: Lin Ma, Brendan Slabe, Ganghao "Eric" Li, Chenhui "Elvis" Zhu, Yuan Wei   
+Team: Brendan Slabe, Ganghao "Eric" Li, Chenhui "Elvis" Zhu, Yuan Wei   
 Mentors:  
 Mandana Vaziri ​mvaziri@us.ibm.com​  
 Tamar Eilam eilamt@us.ibm.com  
@@ -11,12 +11,12 @@ Tamar Eilam eilamt@us.ibm.com
 The goal of this project is to build an operator for a cloud native application for developers to deploy microservices on Kubernetes. 
 
 The high level definition of this project is to: 
-* Ease the deployment of an application in Kubernetes.
+* Ease the deployment,deletion and other kind of an operation in Kubernetes.
 * Extending Kubernetes and it’s CLI’s ability to understand the function, performance and potential of this new resource  
 
 
 ## 2. Users/Personas Of The Project:
-The personas we are targeting is an infrastructure operator for entrepreneurs to deploy any applications without knowledge of the dependencies of the application.
+The personas we are targeting are operation and maintenance Engineer for entrepreneurs to deploy and maintan this app  without tedious configuration.
 
 
 ## 3. Scope and Features Of The Project:
