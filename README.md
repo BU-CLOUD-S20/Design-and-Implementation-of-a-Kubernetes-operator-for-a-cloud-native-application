@@ -29,6 +29,7 @@ Features:
 * Testing and the controller and refine it 
 
 ## 4. Installation: 
+Basically, to test our operator minikube, you need to install the following tools:
 Please install all the pakages and  by following links.
 * [git](https://git-scm.com/downloads)
 * [kubectl version v1.11.3+](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
