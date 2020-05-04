@@ -130,6 +130,8 @@ This section discusses the minimum acceptance criteria at the end of the project
 [Demo4](https://docs.google.com/presentation/d/10--GophiCxISNXilWHVruWOu4IiQ06m_fROMDC1EthA/edit#slide=id.g732f1a43a8_0_107) 
 
 
-[Final](https://docs.google.com/presentation/d/14BEiWadCBx_q0WPgXZw_FoNf3Y3B75TwLAfUIig8MqM/edit#slide=id.g800f20a85e_3_2123)
+[Final PPT](https://docs.google.com/presentation/d/14BEiWadCBx_q0WPgXZw_FoNf3Y3B75TwLAfUIig8MqM/edit#slide=id.g800f20a85e_3_2123)
+
+[Final video](https://drive.google.com/file/d/1Oj6Y0Vx-cb_UrXz80dJITo1CEvAQG6i_/view?usp=sharing)
 
 
