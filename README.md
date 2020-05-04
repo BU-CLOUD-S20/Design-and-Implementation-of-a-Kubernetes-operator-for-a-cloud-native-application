@@ -8,7 +8,7 @@ Tamar Eilam eilamt@us.ibm.com
 # Project Proposal 
 
 ## 1.Vision and Goals Of The Project:
-The goal of this project is to build an operator for a cloud native application for developers to deploy microservices on Kubernetes. click here for the detail of [microservices](https://github.com/ewolff/microservice-kubernetes).
+The goal of this project is to build an operator for a cloud native application for developers to deploy microservices on Kubernetes. click here for the details of [microservices](https://github.com/ewolff/microservice-kubernetes).
 
 The high level definition of this project is to: 
 * Ease the deployment,deletion and other kind of an operation in Kubernetes.
