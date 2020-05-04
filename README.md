@@ -107,7 +107,7 @@ Please install all the pakages and  by following links.
     ```
     in this step, you could see the microservices deployed by our operator. wait about 30 seconds, onces other services is ready, you can click buttons on the website to test. 
     
-    .<div align=center><img src="https://github.com/BU-CLOUD-S20/Design-and-Implementation-of-a-Kubernetes-operator-for-a-cloud-native-application/blob/master/img/customer.png" width="450" height="450" /></div>
+    .<div align=center><img src="https://github.com/BU-CLOUD-S20/Design-and-Implementation-of-a-Kubernetes-operator-for-a-cloud-native-application/blob/master/img/customer.png" /></div>
     
 9. Delete the pods.(delete function)   
     ```
