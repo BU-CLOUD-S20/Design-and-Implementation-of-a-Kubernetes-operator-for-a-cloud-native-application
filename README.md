@@ -25,6 +25,7 @@ The scope of the project is to develop an operator (CRD + controller) for a samp
 Features:
 * Design Custome Resouces Definition (which includes the schema)
 * Design and implement the Custome Resouces Definition controller
+* Realize scalling, deletion functions in operator to control the microservices.
 * Testing and the controller and refine it 
 
 ## 4. Installation: 
