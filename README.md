@@ -89,8 +89,8 @@ This section discusses the minimum acceptance criteria at the end of the project
 * Develop an operator for one sample application on Kubernetes 
 * Implement test case for the operator 
 * Design CDR wich schema 
-*  Implement the CDR for the operator and corresponding test cases 
-* Testing overall performance on the operator on Kubernetes with multiple different applications 
+* Implement the CDR for the operator and corresponding test cases 
+* Testing overall performance on the operator on Kubernetes with the selectedd microservices
 
 ## 7. Demo PPT
 [Demo](https://docs.google.com/presentation/d/1BU5wfGXK9S8Pf8SZImy87siaeywIGy-xiimfU3lXoaY/edit)  
