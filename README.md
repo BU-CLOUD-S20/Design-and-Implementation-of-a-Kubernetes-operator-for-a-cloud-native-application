@@ -105,6 +105,9 @@ Please install all the pakages and  by following links.
     $ kubectl get all
     $ minikube service apache
     ```
+    in this step, you could see the microservices deployed by our operator. wait about 30 seconds, onces other services is ready, you can click buttons on the website to test.
+    .<img src="https://github.com/BU-CLOUD-S20/Design-and-Implementation-of-a-Kubernetes-operator-for-a-cloud-native-application/blob/master/img/customer.png" width="450" height="450" />
+    
 9. Delete the pods.(delete function)   
     ```
     $ kubectl delete -f deploy/crds/app.example.com_v1_appservice_cr.yaml   
