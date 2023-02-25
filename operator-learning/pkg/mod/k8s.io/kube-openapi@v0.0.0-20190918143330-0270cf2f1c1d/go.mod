@@ -26,10 +26,7 @@ require (
 	github.com/pmezard/go-difflib v0.0.0-20151028094244-d8ed2627bdf0 // indirect
 	github.com/spf13/pflag v0.0.0-20170130214245-9ff6c6923cff
 	github.com/stretchr/testify v0.0.0-20151208002404-e3a8ff8ce365
-	golang.org/x/net v0.0.0-20170114055629-f2499483f923 // indirect
-	golang.org/x/sys v0.0.0-20170830134202-bb24a47a89ea // indirect
-	golang.org/x/text v0.0.0-20160726164857-2910a502d2bf // indirect
-	golang.org/x/tools v0.0.0-20181011042414-1f849cf54d09 // indirect
+	golang.org/x/text v0.3.8 // indirect
 	gopkg.in/yaml.v2 v2.2.1
 	k8s.io/gengo v0.0.0-20190128074634-0689ccc1d7d6
 	k8s.io/klog v0.0.0-20181102134211-b9b56d5dfc92
