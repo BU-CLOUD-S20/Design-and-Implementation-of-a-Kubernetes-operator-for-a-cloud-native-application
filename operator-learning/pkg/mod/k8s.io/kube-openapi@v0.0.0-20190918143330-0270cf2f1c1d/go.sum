@@ -46,8 +46,8 @@ github.com/stretchr/testify v0.0.0-20151208002404-e3a8ff8ce365 h1:tIZXYkJpFsIHxP
 github.com/stretchr/testify v0.0.0-20151208002404-e3a8ff8ce365/go.mod h1:a8OnRcib4nhh0OaRAV+Yts87kKdq0PP7pXfy6kDkUVs=
 golang.org/x/net v0.0.0-20170114055629-f2499483f923 h1:cLl2p2++IYXqH4YzQ7uIc7QLOa4SU0x1vSy9Da++V94=
 golang.org/x/net v0.0.0-20170114055629-f2499483f923/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
-golang.org/x/sys v0.0.0-20170830134202-bb24a47a89ea h1:2evNU3IFETJti7lY1OAjaEh2el9kF6Rlg+rnonmjXso=
-golang.org/x/sys v0.0.0-20170830134202-bb24a47a89ea/go.mod h1:STP8DvDyc/dI5b8T5hshtkjS+E42TnysNCUPdjciGhY=
+golang.org/x/sys v0.1.0 h1:kunALQeHf1/185U1i0GOB/fy1IPRDDpuoOOqRReG57U=
+golang.org/x/sys v0.1.0/go.mod h1:oPkhp1MJrh7nUepCBck5+mAzfO9JrbApNNgaTdGDITg=
 golang.org/x/text v0.0.0-20160726164857-2910a502d2bf h1:a1mkutIuyEAoG1fn3Z8Ep7h+O57k45esCFDOqht8HF8=
 golang.org/x/text v0.0.0-20160726164857-2910a502d2bf/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
 golang.org/x/tools v0.0.0-20181011042414-1f849cf54d09 h1:6Cq5LXQ/D2J5E7sYJemWSQApczOzY1rxSp8TWloyxIY=
